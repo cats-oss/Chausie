@@ -8,8 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E04FEB4322781C4A0084666D /* Chausie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04FEB3922781C490084666D /* Chausie.framework */; };
-		E04FEB4822781C4A0084666D /* ChausieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB4722781C4A0084666D /* ChausieTests.swift */; };
 		E04FEB4A22781C4A0084666D /* Chausie.h in Headers */ = {isa = PBXBuildFile; fileRef = E04FEB3C22781C490084666D /* Chausie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E04FEB5C22781CD00084666D /* TabPageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB5322781CD00084666D /* TabPageComposer.swift */; };
+		E04FEB5D22781CD00084666D /* TabPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB5422781CD00084666D /* TabPageViewController.swift */; };
+		E04FEB5E22781CD00084666D /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB5522781CD00084666D /* Position.swift */; };
+		E04FEB5F22781CD00084666D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB5622781CD00084666D /* PageViewController.swift */; };
+		E04FEB6022781CD00084666D /* TabViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB5722781CD00084666D /* TabViewLayout.swift */; };
+		E04FEB6122781CD00084666D /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB5822781CD00084666D /* TabView.swift */; };
+		E04FEB6222781CD00084666D /* PageViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB5922781CD00084666D /* PageViewControllerDelegate.swift */; };
+		E04FEB6322781CD00084666D /* Pageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB5A22781CD00084666D /* Pageable.swift */; };
+		E04FEB6422781CD00084666D /* TabItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB5B22781CD00084666D /* TabItemCell.swift */; };
+		E04FEB6722781DCF0084666D /* MockPagebableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6622781DCF0084666D /* MockPagebableViewController.swift */; };
+		E04FEB6D22781DE10084666D /* PageViewControllerDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6822781DE10084666D /* PageViewControllerDelegateTests.swift */; };
+		E04FEB6E22781DE10084666D /* TabViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6922781DE10084666D /* TabViewTests.swift */; };
+		E04FEB6F22781DE10084666D /* PageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6A22781DE10084666D /* PageViewControllerTests.swift */; };
+		E04FEB7022781DE10084666D /* TabPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6B22781DE10084666D /* TabPageViewControllerTests.swift */; };
+		E04FEB7122781DE10084666D /* PageableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6C22781DE10084666D /* PageableTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +41,22 @@
 		E04FEB3C22781C490084666D /* Chausie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chausie.h; sourceTree = "<group>"; };
 		E04FEB3D22781C490084666D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E04FEB4222781C4A0084666D /* ChausieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChausieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E04FEB4722781C4A0084666D /* ChausieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChausieTests.swift; sourceTree = "<group>"; };
 		E04FEB4922781C4A0084666D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E04FEB5322781CD00084666D /* TabPageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPageComposer.swift; sourceTree = "<group>"; };
+		E04FEB5422781CD00084666D /* TabPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPageViewController.swift; sourceTree = "<group>"; };
+		E04FEB5522781CD00084666D /* Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		E04FEB5622781CD00084666D /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		E04FEB5722781CD00084666D /* TabViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewLayout.swift; sourceTree = "<group>"; };
+		E04FEB5822781CD00084666D /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		E04FEB5922781CD00084666D /* PageViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewControllerDelegate.swift; sourceTree = "<group>"; };
+		E04FEB5A22781CD00084666D /* Pageable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pageable.swift; sourceTree = "<group>"; };
+		E04FEB5B22781CD00084666D /* TabItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItemCell.swift; sourceTree = "<group>"; };
+		E04FEB6622781DCF0084666D /* MockPagebableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockPagebableViewController.swift; sourceTree = "<group>"; };
+		E04FEB6822781DE10084666D /* PageViewControllerDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewControllerDelegateTests.swift; sourceTree = "<group>"; };
+		E04FEB6922781DE10084666D /* TabViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewTests.swift; sourceTree = "<group>"; };
+		E04FEB6A22781DE10084666D /* PageViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewControllerTests.swift; sourceTree = "<group>"; };
+		E04FEB6B22781DE10084666D /* TabPageViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPageViewControllerTests.swift; sourceTree = "<group>"; };
+		E04FEB6C22781DE10084666D /* PageableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageableTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +99,15 @@
 		E04FEB3B22781C490084666D /* Chausie */ = {
 			isa = PBXGroup;
 			children = (
+				E04FEB5A22781CD00084666D /* Pageable.swift */,
+				E04FEB5622781CD00084666D /* PageViewController.swift */,
+				E04FEB5922781CD00084666D /* PageViewControllerDelegate.swift */,
+				E04FEB5522781CD00084666D /* Position.swift */,
+				E04FEB5B22781CD00084666D /* TabItemCell.swift */,
+				E04FEB5322781CD00084666D /* TabPageComposer.swift */,
+				E04FEB5422781CD00084666D /* TabPageViewController.swift */,
+				E04FEB5822781CD00084666D /* TabView.swift */,
+				E04FEB5722781CD00084666D /* TabViewLayout.swift */,
 				E04FEB3C22781C490084666D /* Chausie.h */,
 				E04FEB3D22781C490084666D /* Info.plist */,
 			);
@@ -80,10 +117,23 @@
 		E04FEB4622781C4A0084666D /* ChausieTests */ = {
 			isa = PBXGroup;
 			children = (
-				E04FEB4722781C4A0084666D /* ChausieTests.swift */,
+				E04FEB6522781D870084666D /* Mocks */,
+				E04FEB6C22781DE10084666D /* PageableTests.swift */,
+				E04FEB6822781DE10084666D /* PageViewControllerDelegateTests.swift */,
+				E04FEB6A22781DE10084666D /* PageViewControllerTests.swift */,
+				E04FEB6B22781DE10084666D /* TabPageViewControllerTests.swift */,
+				E04FEB6922781DE10084666D /* TabViewTests.swift */,
 				E04FEB4922781C4A0084666D /* Info.plist */,
 			);
 			path = ChausieTests;
+			sourceTree = "<group>";
+		};
+		E04FEB6522781D870084666D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				E04FEB6622781DCF0084666D /* MockPagebableViewController.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +198,11 @@
 				TargetAttributes = {
 					E04FEB3822781C490084666D = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					E04FEB4122781C4A0084666D = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -194,6 +246,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04FEB5C22781CD00084666D /* TabPageComposer.swift in Sources */,
+				E04FEB5D22781CD00084666D /* TabPageViewController.swift in Sources */,
+				E04FEB6322781CD00084666D /* Pageable.swift in Sources */,
+				E04FEB6222781CD00084666D /* PageViewControllerDelegate.swift in Sources */,
+				E04FEB6022781CD00084666D /* TabViewLayout.swift in Sources */,
+				E04FEB5E22781CD00084666D /* Position.swift in Sources */,
+				E04FEB6122781CD00084666D /* TabView.swift in Sources */,
+				E04FEB6422781CD00084666D /* TabItemCell.swift in Sources */,
+				E04FEB5F22781CD00084666D /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E04FEB4822781C4A0084666D /* ChausieTests.swift in Sources */,
+				E04FEB7122781DE10084666D /* PageableTests.swift in Sources */,
+				E04FEB6D22781DE10084666D /* PageViewControllerDelegateTests.swift in Sources */,
+				E04FEB6E22781DE10084666D /* TabViewTests.swift in Sources */,
+				E04FEB6722781DCF0084666D /* MockPagebableViewController.swift in Sources */,
+				E04FEB7022781DE10084666D /* TabPageViewControllerTests.swift in Sources */,
+				E04FEB6F22781DE10084666D /* PageViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -326,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -341,6 +407,7 @@
 		E04FEB4E22781C4A0084666D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -357,6 +424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.shoheiyokoyama.Chausie;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +433,7 @@
 		E04FEB4F22781C4A0084666D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +458,8 @@
 		E04FEB5122781C4A0084666D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChausieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -398,6 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.shoheiyokoyama.ChausieTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -406,6 +478,8 @@
 		E04FEB5222781C4A0084666D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ChausieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
