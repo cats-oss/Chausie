@@ -19,11 +19,11 @@
 		E04FEB6322781CD00084666D /* Pageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB5A22781CD00084666D /* Pageable.swift */; };
 		E04FEB6422781CD00084666D /* TabItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB5B22781CD00084666D /* TabItemCell.swift */; };
 		E04FEB6722781DCF0084666D /* MockPagebableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6622781DCF0084666D /* MockPagebableViewController.swift */; };
-		E04FEB6D22781DE10084666D /* PageViewControllerDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6822781DE10084666D /* PageViewControllerDelegateTests.swift */; };
-		E04FEB6E22781DE10084666D /* TabViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6922781DE10084666D /* TabViewTests.swift */; };
-		E04FEB6F22781DE10084666D /* PageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6A22781DE10084666D /* PageViewControllerTests.swift */; };
-		E04FEB7022781DE10084666D /* TabPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6B22781DE10084666D /* TabPageViewControllerTests.swift */; };
-		E04FEB7122781DE10084666D /* PageableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB6C22781DE10084666D /* PageableTests.swift */; };
+		E04FEB78227821F30084666D /* PageableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB73227821F30084666D /* PageableTests.swift */; };
+		E04FEB79227821F30084666D /* TabViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB74227821F30084666D /* TabViewTests.swift */; };
+		E04FEB7A227821F30084666D /* PageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB75227821F30084666D /* PageViewControllerTests.swift */; };
+		E04FEB7B227821F30084666D /* PageViewControllerDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB76227821F30084666D /* PageViewControllerDelegateTests.swift */; };
+		E04FEB7C227821F30084666D /* TabPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB77227821F30084666D /* TabPageViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,11 @@
 		E04FEB5A22781CD00084666D /* Pageable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pageable.swift; sourceTree = "<group>"; };
 		E04FEB5B22781CD00084666D /* TabItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItemCell.swift; sourceTree = "<group>"; };
 		E04FEB6622781DCF0084666D /* MockPagebableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockPagebableViewController.swift; sourceTree = "<group>"; };
-		E04FEB6822781DE10084666D /* PageViewControllerDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewControllerDelegateTests.swift; sourceTree = "<group>"; };
-		E04FEB6922781DE10084666D /* TabViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewTests.swift; sourceTree = "<group>"; };
-		E04FEB6A22781DE10084666D /* PageViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewControllerTests.swift; sourceTree = "<group>"; };
-		E04FEB6B22781DE10084666D /* TabPageViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPageViewControllerTests.swift; sourceTree = "<group>"; };
-		E04FEB6C22781DE10084666D /* PageableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageableTests.swift; sourceTree = "<group>"; };
+		E04FEB73227821F30084666D /* PageableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageableTests.swift; sourceTree = "<group>"; };
+		E04FEB74227821F30084666D /* TabViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewTests.swift; sourceTree = "<group>"; };
+		E04FEB75227821F30084666D /* PageViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewControllerTests.swift; sourceTree = "<group>"; };
+		E04FEB76227821F30084666D /* PageViewControllerDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewControllerDelegateTests.swift; sourceTree = "<group>"; };
+		E04FEB77227821F30084666D /* TabPageViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPageViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +117,8 @@
 		E04FEB4622781C4A0084666D /* ChausieTests */ = {
 			isa = PBXGroup;
 			children = (
+				E04FEB72227821D30084666D /* Tests */,
 				E04FEB6522781D870084666D /* Mocks */,
-				E04FEB6C22781DE10084666D /* PageableTests.swift */,
-				E04FEB6822781DE10084666D /* PageViewControllerDelegateTests.swift */,
-				E04FEB6A22781DE10084666D /* PageViewControllerTests.swift */,
-				E04FEB6B22781DE10084666D /* TabPageViewControllerTests.swift */,
-				E04FEB6922781DE10084666D /* TabViewTests.swift */,
 				E04FEB4922781C4A0084666D /* Info.plist */,
 			);
 			path = ChausieTests;
@@ -134,6 +130,18 @@
 				E04FEB6622781DCF0084666D /* MockPagebableViewController.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		E04FEB72227821D30084666D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E04FEB73227821F30084666D /* PageableTests.swift */,
+				E04FEB76227821F30084666D /* PageViewControllerDelegateTests.swift */,
+				E04FEB75227821F30084666D /* PageViewControllerTests.swift */,
+				E04FEB77227821F30084666D /* TabPageViewControllerTests.swift */,
+				E04FEB74227821F30084666D /* TabViewTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,12 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E04FEB7122781DE10084666D /* PageableTests.swift in Sources */,
-				E04FEB6D22781DE10084666D /* PageViewControllerDelegateTests.swift in Sources */,
-				E04FEB6E22781DE10084666D /* TabViewTests.swift in Sources */,
+				E04FEB79227821F30084666D /* TabViewTests.swift in Sources */,
+				E04FEB7B227821F30084666D /* PageViewControllerDelegateTests.swift in Sources */,
 				E04FEB6722781DCF0084666D /* MockPagebableViewController.swift in Sources */,
-				E04FEB7022781DE10084666D /* TabPageViewControllerTests.swift in Sources */,
-				E04FEB6F22781DE10084666D /* PageViewControllerTests.swift in Sources */,
+				E04FEB7C227821F30084666D /* TabPageViewControllerTests.swift in Sources */,
+				E04FEB7A227821F30084666D /* PageViewControllerTests.swift in Sources */,
+				E04FEB78227821F30084666D /* PageableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
