@@ -5,9 +5,41 @@
 [![License](https://img.shields.io/cocoapods/l/Chausie.svg?style=flat)](https://cocoapods.org/pods/Chausie)
 [![Platform](https://img.shields.io/cocoapods/p/Chausie.svg?style=flat)](https://cocoapods.org/pods/Chausie)
 
-## Example
+## Overview
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Chausie provides a customizable container view controller that manages navigation between pages of content. Page of contents can be controlled programmatically by your implementation or directly by the user's gesture. Chausie is designed to be flexible and extensible, provides intuitive and simple interfaces.
+
+## Features
+
+- implementation
+
+Chausie is designed to be a simple and minimal implementation to make the flexible user interface. Chausie provides APIs for managing page content, and implementers can customize views. See [example code](https://github.com/shoheiyokoyama/Chausie/tree/master/Examples/ChausieExample) for details.
+
+- maintenability
+
+Chausie is used and oprated in iOS applications. Aim for continuous maintenance and enhancement by members of [CATS ( CyberAgent Advanced Technology Studio )](https://github.com/cats-oss).
+
+## Usage
+
+You can use Chausie API intuitively and simply, like this:
+
+```swift
+TabPageViewController(
+    components: [
+        Component(
+            child: FirstViewController(),
+            cellModel: Category.fashion
+        ),
+        Component(
+            child: SecondViewController(),
+            cellModel: Category.fashion
+        )
+    ]
+)
+```
+
+Clone the repo to run the example project, and run `make` from the [Example directory](https://github.com/shoheiyokoyama/Chausie/tree/master/Examples/ChausieExample) first.
+See sample code [here](https://github.com/shoheiyokoyama/Chausie/tree/master/Examples/ChausieExample/ChausieExample) for details.
 
 ## Requirements
 
