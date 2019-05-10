@@ -11,17 +11,25 @@ Chausie provides a customizable container view controller that manages navigatio
 
 ## Features
 
-- implementation
+<img src="https://github.com/shoheiyokoyama/Assets/blob/master/Chausie/example.gif" width=170 align="right">
 
-Chausie is designed to be a simple and minimal implementation to make the flexible user interface. Chausie provides APIs for managing page content, and implementers can customize views. See [example code](https://github.com/shoheiyokoyama/Chausie/tree/master/Examples/ChausieExample) for details.
+### implementation
 
-- maintenability
+Chausie is designed to be a simple and minimal implementation to make the flexible user interface. 
+
+Chausie provides APIs for managing page content, and implementers can customize views. See [example code](https://github.com/shoheiyokoyama/Chausie/tree/master/Examples/ChausieExample) for details.
+
+### maintenability
 
 Chausie is used and oprated in iOS applications. Aim for continuous maintenance and enhancement by members of [CATS ( CyberAgent Advanced Technology Studio )](https://github.com/cats-oss).
 
 ## View Components
 
 Chausie provides container view to compose pages of content. components that compose view container is available, so you can design flexible layout.
+
+<p align="center">
+  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Chausie/components.png">
+</p>
 
 ## Usage
 
