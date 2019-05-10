@@ -11,7 +11,7 @@ Chausie provides a customizable container view controller that manages navigatio
 
 ## Features
 
-<img src="https://github.com/shoheiyokoyama/Assets/blob/master/Chausie/example.gif" width=170 align="right">
+<img src="https://github.com/shoheiyokoyama/Assets/blob/master/Chausie/example.gif" width=160 align="right">
 
 ### implementation
 
