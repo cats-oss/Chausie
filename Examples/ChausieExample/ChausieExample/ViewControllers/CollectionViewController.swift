@@ -4,11 +4,11 @@ import UIKit
 final class CollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, Pageable, HasCategory {
 
     private let cellIdentifier = String(describing: ImageCollectionViewCell.self)
-    private let itemSize = CGSize(width: 200, height: 250)
+    private let itemSize = CGSize(width: 150, height: 200)
 
     var category = Category.cats
 
-    private var horizontalMargin: CGFloat {
+    private var margin: CGFloat {
         let columnCount: CGFloat = 2
         let totalMargin = collectionView.bounds.width - itemSize.width * columnCount
         let marginCounbt = columnCount + 1
@@ -51,14 +51,14 @@ final class CollectionViewController: UICollectionViewController, UICollectionVi
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 8, left: horizontalMargin, bottom: 8, right: horizontalMargin)
+        return UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return horizontalMargin
+        return margin
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return 0
+        return margin
     }
 }
