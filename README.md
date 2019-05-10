@@ -19,6 +19,10 @@ Chausie is designed to be a simple and minimal implementation to make the flexib
 
 Chausie is used and oprated in iOS applications. Aim for continuous maintenance and enhancement by members of [CATS ( CyberAgent Advanced Technology Studio )](https://github.com/cats-oss).
 
+## View Components
+
+Chausie provides container view to compose pages of content. components that compose view container is available, so you can design flexible layout.
+
 ## Usage
 
 You can use Chausie API intuitively and simply, like this:
@@ -32,7 +36,7 @@ TabPageViewController(
         ),
         Component(
             child: SecondViewController(),
-            cellModel: Category.fashion
+            cellModel: Category.food
         )
     ]
 )
