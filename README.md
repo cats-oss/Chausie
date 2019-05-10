@@ -21,7 +21,7 @@ Chausie is designed to be a simple and minimal implementation to make the flexib
 
 Chausie is used and oprated in iOS applications. Aim for continuous maintenance and enhancement by members of [CATS ( CyberAgent Advanced Technology Studio )](https://github.com/cats-oss).
 
-If you need any help, please visit our [GitHub issues](https://github.com/shoheiyokoyama/Chausie/issues) and Feel free to file an issue.
+If you need any help, please visit our [GitHub issues](https://github.com/shoheiyokoyama/Chausie/issues) and feel free to file an issue.
 
 There are multiple ways you can contribute to this project. We welcome contributions ( GitHub issues, pull requets, etc. )
 
