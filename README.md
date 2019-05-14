@@ -70,9 +70,13 @@ it, simply add the following line to your Podfile:
 pod 'Chausie'
 ```
 
-## Author
+## Future tasks
 
-shoheiyokoyama, shohei.yok0602@gmail.com
+- [x] Basic implementation 
+- [ ] Other tab view style
+- [ ] Instantiates from xib or storyboard
+- [ ] Rearchitecture content of page
+- [ ] And More...
 
 ## License
 
