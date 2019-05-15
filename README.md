@@ -33,7 +33,7 @@ There are multiple ways you can contribute to this project. We welcome contribut
 
 ## View Components
 
-Chausie provides container view to compose pages of content. components that compose view container is available, so you can design flexible layout.
+Chausie provides container view to compose pages of content. Components that compose view container is available, so you can design flexible layout.
 
 <p align="center">
   <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Chausie/components.png">
