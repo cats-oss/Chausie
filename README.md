@@ -1,15 +1,12 @@
 # Chausie
 
-[![CI Status](https://img.shields.io/travis/shoheiyokoyama/Chausie.svg?style=flat)](https://travis-ci.org/shoheiyokoyama/Chausie)
-[![Version](https://img.shields.io/cocoapods/v/Chausie.svg?style=flat)](https://cocoapods.org/pods/Chausie)
-[![License](https://img.shields.io/cocoapods/l/Chausie.svg?style=flat)](https://cocoapods.org/pods/Chausie)
-[![Platform](https://img.shields.io/cocoapods/p/Chausie.svg?style=flat)](https://cocoapods.org/pods/Chausie)
-
 <p align="center">
   <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Chausie/logo.png">
 </p>
 
 ## Overview
+
+[![Build Status](https://travis-ci.com/shoheiyokoyama/Chausie.svg?token=rAZs4BnTUj9YBp8dsHR8&branch=master)](https://travis-ci.com/shoheiyokoyama/Chausie)
 
 Chausie provides a customizable container view controller that manages navigation between pages of content. Page of contents can be controlled programmatically by your implementation or directly by the user's gesture. Chausie is designed to be flexible and extensible, provides intuitive and simple interfaces.
 
