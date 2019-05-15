@@ -6,8 +6,8 @@
 
 ## Overview
 
-[![Build Status](https://travis-ci.com/shoheiyokoyama/Chausie.svg?token=rAZs4BnTUj9YBp8dsHR8&branch=master)](https://travis-ci.com/shoheiyokoyama/Chausie)
-[![codecov](https://codecov.io/gh/shoheiyokoyama/Chausie/branch/master/graph/badge.svg?token=HqvdBS4emt)](https://codecov.io/gh/shoheiyokoyama/Chausie)
+[![Build Status](https://travis-ci.com/cats-oss/Chausie.svg?branch=master)](https://travis-ci.com/cats-oss/Chausie)
+[![codecov](https://codecov.io/gh/cats-oss/Chausie/branch/master/graph/badge.svg)](https://codecov.io/gh/cats-oss/Chausie)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-green.svg)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg
 )](http://mit-license.org)
