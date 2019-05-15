@@ -7,6 +7,7 @@
 ## Overview
 
 [![Build Status](https://travis-ci.com/shoheiyokoyama/Chausie.svg?token=rAZs4BnTUj9YBp8dsHR8&branch=master)](https://travis-ci.com/shoheiyokoyama/Chausie)
+[![codecov](https://codecov.io/gh/shoheiyokoyama/Chausie/branch/master/graph/badge.svg?token=HqvdBS4emt)](https://codecov.io/gh/shoheiyokoyama/Chausie)
 
 Chausie provides a customizable container view controller that manages navigation between pages of content. Page of contents can be controlled programmatically by your implementation or directly by the user's gesture. Chausie is designed to be flexible and extensible, provides intuitive and simple interfaces.
 
