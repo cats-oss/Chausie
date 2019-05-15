@@ -80,4 +80,4 @@ pod 'Chausie'
 
 ## License
 
-Chausie is available under the MIT license. See the LICENSE file for more info.
+Chausie is available under the MIT license. See the [LICENSE](https://github.com/shoheiyokoyama/Chausie/tree/master/LICENSE) file for more info.
