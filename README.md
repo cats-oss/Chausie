@@ -8,6 +8,10 @@
 
 [![Build Status](https://travis-ci.com/shoheiyokoyama/Chausie.svg?token=rAZs4BnTUj9YBp8dsHR8&branch=master)](https://travis-ci.com/shoheiyokoyama/Chausie)
 [![codecov](https://codecov.io/gh/shoheiyokoyama/Chausie/branch/master/graph/badge.svg?token=HqvdBS4emt)](https://codecov.io/gh/shoheiyokoyama/Chausie)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-green.svg)](https://github.com/Carthage/Carthage)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg
+)](http://mit-license.org)
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
 
 Chausie provides a customizable container view controller that manages navigation between pages of content. Page of contents can be controlled programmatically by your implementation or directly by the user's gesture. Chausie is designed to be flexible and extensible, provides intuitive and simple interfaces.
 
@@ -59,13 +63,17 @@ See sample code [here](https://github.com/shoheiyokoyama/Chausie/tree/master/Exa
 
 ## Requirements
 
+- Swift 5.0
+- Xcode 10.2.1
+
 ## Installation
 
-Chausie is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Carthage
+
+Add the following line to your `Cartfile`:
 
 ```ruby
-pod 'Chausie'
+github "cats-oss/Chausie"
 ```
 
 ## Future tasks
