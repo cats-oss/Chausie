@@ -1,0 +1,10 @@
+language: objective-c
+os: osx
+osx_image: xcode10.2
+before_install:
+  - gem install xcpretty
+before_script:
+  - set -o pipefail
+script: make test
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
