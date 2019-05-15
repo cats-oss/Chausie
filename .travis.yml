@@ -1,0 +1,9 @@
+language: objective-c
+os: osx
+osx_image: xcode10.2
+before_install:
+  - gem install xcpretty
+before_script:
+  - set -o pipefail
+script:
+  - xcodebuild test -project ./Chausie.xcodeproj -scheme ChausieTests -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=12.2,name=iPhone 8' | xcpretty -c
