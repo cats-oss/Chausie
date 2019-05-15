@@ -82,7 +82,7 @@ github "cats-oss/Chausie"
 - [ ] Other tab view style
 - [ ] Instantiates from xib or storyboard
 - [ ] Rearchitecture content of page
-- [ ] And More...
+- [ ] And more...
 
 ## License
 
