@@ -68,6 +68,14 @@ See sample code [here](https://github.com/cats-oss/Chausie/tree/master/Examples/
 
 ## Installation
 
+### CocoaPods
+
+Gemini is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
+
+```ruby
+pod "Chausie"
+```
+
 ### Carthage
 
 Add the following line to your `Cartfile`:
