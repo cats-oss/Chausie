@@ -9,6 +9,7 @@
 [![Build Status](https://travis-ci.com/cats-oss/Chausie.svg?branch=master)](https://travis-ci.com/cats-oss/Chausie)
 [![codecov](https://codecov.io/gh/cats-oss/Chausie/branch/master/graph/badge.svg)](https://codecov.io/gh/cats-oss/Chausie)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-green.svg)](https://github.com/Carthage/Carthage)
+[![Carthage compatible](https://img.shields.io/badge/Cocoapods-compatible-brightgreen.svg)](https://cocoapods.org/pods/Chausie)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg
 )](http://mit-license.org)
 ![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
