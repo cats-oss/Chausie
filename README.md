@@ -71,7 +71,7 @@ See sample code [here](https://github.com/cats-oss/Chausie/tree/master/Examples/
 
 ### CocoaPods
 
-Gemini is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
+Chausie is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "Chausie"
