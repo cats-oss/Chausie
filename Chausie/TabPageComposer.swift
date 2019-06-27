@@ -22,7 +22,7 @@ open class TabPageComposer<TabCell: TabItemCell & UIControl> {
     public var components: [Component]
 
     /// A generator of tab view.
-    internal var tabViewGenerator: () -> TabView
+    public var tabViewGenerator: () -> TabView
 
     /// - Parameters:
     ///     - components: An array of component composed of child view
