@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Chausie'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Chausie provides a customizable view containers that manages navigation between pages of content. :cat:'
   s.homepage         = 'https://github.com/cats-oss/Chausie'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
