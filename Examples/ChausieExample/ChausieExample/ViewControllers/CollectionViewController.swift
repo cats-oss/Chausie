@@ -61,4 +61,12 @@ final class CollectionViewController: UICollectionViewController, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return margin
     }
+
+    func pageViewController(_ pageViewController: PageViewController, didAppearAt index: PageIndex) {
+        print("called didAppear at \(index) category is \(category)")
+    }
+
+    func pageViewController(_ pageViewController: Chausie.PageViewController, didDisappearAt index: PageIndex) {
+        print("called didDisappear at \(index) category is \(category)")
+    }
 }

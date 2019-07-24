@@ -283,9 +283,7 @@ extension PageViewController: UIScrollViewDelegate {
 
         delegate?.pageViewController(self, didScrollAtRatio: scrollRatio)
 
-        guard !isTransitioning && maxChildrenCount < viewControllers.count else {
-            return
-        }
+        guard !isTransitioning else { return }
 
         sendLifecycleEvent()
         layoutChildren()
@@ -339,6 +337,8 @@ extension PageViewController: UIScrollViewDelegate {
 
     /// Adds and removes a certain view controller as a child depending on the scroll offset.
     private func layoutChildren() {
+        guard maxChildrenCount < viewControllers.count else { return }
+
         enum Action {
             case addChild
             case removeFromParent

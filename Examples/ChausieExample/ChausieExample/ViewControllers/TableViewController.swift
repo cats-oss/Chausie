@@ -32,4 +32,12 @@ final class TableViewController: UITableViewController, Pageable, HasCategory {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 208
     }
+
+    func pageViewController(_ pageViewController: PageViewController, didAppearAt index: PageIndex) {
+        print("called didAppear at \(index) category is \(category)")
+    }
+
+    func pageViewController(_ pageViewController: Chausie.PageViewController, didDisappearAt index: PageIndex) {
+        print("called didDisappear at \(index) category is \(category)")
+    }
 }
