@@ -2,15 +2,29 @@
 
 ##### Breaking
 
-* None. 
+* None.
 
 ##### Enhancements
 
-* None. 
+* None.
 
 ##### Bug Fixes
 
-* None. 
+* None.
+
+## [0.1.3](https://github.com/cats-oss/Chausie/releases/tag/0.1.3)
+
+##### Breaking
+
+* None.
+
+##### Enhancements
+
+* None.
+
+##### Bug Fixes
+
+* [Fix pagebable method behavior](https://github.com/cats-oss/Chausie/commit/120d55f5a52dd914a273c4846a19c2c4da9cfa9f)
 
 ## [0.1.2](https://github.com/cats-oss/Chausie/releases/tag/0.1.2)
 
