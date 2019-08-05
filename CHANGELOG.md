@@ -12,7 +12,7 @@
 
 * None.
 
-## [0.1.4](https://github.com/cats-oss/Chausie/releases/tag/0.1.3)
+## [0.1.4](https://github.com/cats-oss/Chausie/releases/tag/0.1.4)
 
 ##### Breaking
 
