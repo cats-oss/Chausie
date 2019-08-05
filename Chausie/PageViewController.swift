@@ -16,6 +16,13 @@ public final class PageViewController: UIViewController {
         return scrollView.contentOffset.x / scrollView.contentSize.width
     }
 
+    /// The underlying gesture recognizer for pan gestures of inner scrollview.
+    /// Access this property when you want to more precisely control which pan gestures are
+    /// recognized by the inner scroll view.
+    public var panGestureRecognizer: UIPanGestureRecognizer {
+        return scrollView.panGestureRecognizer
+    }
+
     /// The view controllers displayed by the page view controller.
     public let viewControllers: ContiguousArray<Child>
 
