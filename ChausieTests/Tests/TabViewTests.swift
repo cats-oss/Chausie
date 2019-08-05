@@ -19,9 +19,9 @@ private final class TabViewTests: XCTestCase {
 
     func testCellModel() {
         let cells = tabView.cells.compactMap { $0 as? MockTabCell }
-        XCTAssertEqual(cells[0].label.text, models[0])
-        XCTAssertEqual(cells[1].label.text, models[1])
-        XCTAssertEqual(cells[2].label.text, models[2])
+        XCTAssertEqual(cells[0].titleLabel?.text, models[0])
+        XCTAssertEqual(cells[1].titleLabel?.text, models[1])
+        XCTAssertEqual(cells[2].titleLabel?.text, models[2])
     }
 
     func testCellHighlightRatio() {
@@ -41,22 +41,5 @@ private final class TabViewTests: XCTestCase {
         XCTAssertEqual(cells[0].ratio, 0)
         XCTAssertEqual(cells[1].ratio, 0)
         XCTAssertEqual(cells[2].ratio, 1)
-    }
-}
-
-private final class MockTabCell: UIControl, TabItemCell {
-    typealias Model = String
-
-    private(set) var label = UILabel()
-    private(set) var ratio: CGFloat?
-
-    static func make(model: String) -> MockTabCell {
-        let cell = MockTabCell()
-        cell.label.text = model
-        return cell
-    }
-
-    func updateHighlightRatio(_ ratio: CGFloat) {
-        self.ratio = ratio
     }
 }
