@@ -12,6 +12,21 @@
 
 * None.
 
+## [0.1.4](https://github.com/cats-oss/Chausie/releases/tag/0.1.3)
+
+##### Breaking
+
+* None.
+
+##### Enhancements
+
+* [Adds 'panGestureRecognizer'](https://github.com/cats-oss/Chausie/pull/5/commits/5e9945263ab61840d19cd26c749e87933c70e3d4)
+* [Adds 'TabPageViewControllerDelegate'](https://github.com/cats-oss/Chausie/pull/5/commits/f0a568483627bf83f8457936d52082ad5ff87b91)
+
+##### Bug Fixes
+
+* None.
+
 ## [0.1.3](https://github.com/cats-oss/Chausie/releases/tag/0.1.3)
 
 ##### Breaking

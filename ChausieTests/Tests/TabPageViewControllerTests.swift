@@ -5,7 +5,7 @@ private final class TabPageViewControllerTests: XCTestCase {
     var tabPageViewController: TabPageViewController!
 
     override func setUp() {
-        typealias Composer = TabPageComposer<TabCell>
+        typealias Composer = TabPageComposer<MockTabCell>
         typealias Component = Composer.Component
 
         let components = [
@@ -41,21 +41,7 @@ private final class TabPageViewControllerTests: XCTestCase {
 
     func testHighlightRatio() {
         tabPageViewController.pageViewController.scrollToPage(at: 2, animated: false)
-        let subviews = tabPageViewController.tabView.subviews.compactMap { $0 as? TabCell }
+        let subviews = tabPageViewController.tabView.subviews.compactMap { $0 as? MockTabCell }
         XCTAssertEqual(subviews[2].ratio, 1)
-    }
-}
-
-private final class TabCell: UIButton, TabItemCell {
-    typealias Model = String
-
-    private(set) var ratio: CGFloat?
-
-    static func make(model: Model) -> TabCell {
-        return TabCell()
-    }
-
-    func updateHighlightRatio(_ ratio: CGFloat) {
-        self.ratio = ratio
     }
 }

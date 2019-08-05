@@ -24,6 +24,9 @@
 		E04FEB7A227821F30084666D /* PageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB75227821F30084666D /* PageViewControllerTests.swift */; };
 		E04FEB7B227821F30084666D /* PageViewControllerDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB76227821F30084666D /* PageViewControllerDelegateTests.swift */; };
 		E04FEB7C227821F30084666D /* TabPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04FEB77227821F30084666D /* TabPageViewControllerTests.swift */; };
+		E09C252A22F800D800D29AC9 /* TabPageViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09C252922F800D800D29AC9 /* TabPageViewControllerDelegate.swift */; };
+		E09C252C22F802FF00D29AC9 /* TabPageViewControllerDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09C252B22F802FF00D29AC9 /* TabPageViewControllerDelegateTests.swift */; };
+		E09C252E22F8062F00D29AC9 /* MockTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09C252D22F8062F00D29AC9 /* MockTabCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		E04FEB75227821F30084666D /* PageViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewControllerTests.swift; sourceTree = "<group>"; };
 		E04FEB76227821F30084666D /* PageViewControllerDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewControllerDelegateTests.swift; sourceTree = "<group>"; };
 		E04FEB77227821F30084666D /* TabPageViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPageViewControllerTests.swift; sourceTree = "<group>"; };
+		E09C252922F800D800D29AC9 /* TabPageViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPageViewControllerDelegate.swift; sourceTree = "<group>"; };
+		E09C252B22F802FF00D29AC9 /* TabPageViewControllerDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPageViewControllerDelegateTests.swift; sourceTree = "<group>"; };
+		E09C252D22F8062F00D29AC9 /* MockTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTabCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 				E04FEB5B22781CD00084666D /* TabItemCell.swift */,
 				E04FEB5322781CD00084666D /* TabPageComposer.swift */,
 				E04FEB5422781CD00084666D /* TabPageViewController.swift */,
+				E09C252922F800D800D29AC9 /* TabPageViewControllerDelegate.swift */,
 				E04FEB5822781CD00084666D /* TabView.swift */,
 				E04FEB5722781CD00084666D /* TabViewLayout.swift */,
 				E04FEB3C22781C490084666D /* Chausie.h */,
@@ -128,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				E04FEB6622781DCF0084666D /* MockPagebableViewController.swift */,
+				E09C252D22F8062F00D29AC9 /* MockTabCell.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -140,6 +148,7 @@
 				E04FEB75227821F30084666D /* PageViewControllerTests.swift */,
 				E04FEB77227821F30084666D /* TabPageViewControllerTests.swift */,
 				E04FEB74227821F30084666D /* TabViewTests.swift */,
+				E09C252B22F802FF00D29AC9 /* TabPageViewControllerDelegateTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -260,6 +269,7 @@
 				E04FEB6222781CD00084666D /* PageViewControllerDelegate.swift in Sources */,
 				E04FEB6022781CD00084666D /* TabViewLayout.swift in Sources */,
 				E04FEB5E22781CD00084666D /* Position.swift in Sources */,
+				E09C252A22F800D800D29AC9 /* TabPageViewControllerDelegate.swift in Sources */,
 				E04FEB6122781CD00084666D /* TabView.swift in Sources */,
 				E04FEB6422781CD00084666D /* TabItemCell.swift in Sources */,
 				E04FEB5F22781CD00084666D /* PageViewController.swift in Sources */,
@@ -272,8 +282,10 @@
 			files = (
 				E04FEB79227821F30084666D /* TabViewTests.swift in Sources */,
 				E04FEB7B227821F30084666D /* PageViewControllerDelegateTests.swift in Sources */,
+				E09C252C22F802FF00D29AC9 /* TabPageViewControllerDelegateTests.swift in Sources */,
 				E04FEB6722781DCF0084666D /* MockPagebableViewController.swift in Sources */,
 				E04FEB7C227821F30084666D /* TabPageViewControllerTests.swift in Sources */,
+				E09C252E22F8062F00D29AC9 /* MockTabCell.swift in Sources */,
 				E04FEB7A227821F30084666D /* PageViewControllerTests.swift in Sources */,
 				E04FEB78227821F30084666D /* PageableTests.swift in Sources */,
 			);

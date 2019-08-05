@@ -2,8 +2,12 @@ import UIKit
 
 /// A customizable container view controller that manages tab view and page view controller.
 open class TabPageViewController: UIViewController, PageViewControllerDelegate {
+    /// The delegate object. methods of the delegate are called in response to scroll changes.
+    public weak var delegate: TabPageViewControllerDelegate?
+
     /// The tab view that the controller manages.
     public let tabView: TabView
+
     /// The page view controller that the controller manages.
     public let pageViewController: PageViewController
 
@@ -109,6 +113,7 @@ open class TabPageViewController: UIViewController, PageViewControllerDelegate {
 
     open func pageViewController(_ pageViewController: PageViewController, didScrollAtRatio ratio: CGFloat) {
         tabView.highlightCells(withRatio: ratio)
+        delegate?.tabPageViewController(self, didScrollAtRatio: ratio)
     }
 }
 
