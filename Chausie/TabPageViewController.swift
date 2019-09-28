@@ -11,6 +11,9 @@ open class TabPageViewController: UIViewController, PageViewControllerDelegate {
     /// The page view controller that the controller manages.
     public let pageViewController: PageViewController
 
+    /// The layout of inner tab view.
+    private let tabViewLayout: TabViewLayout
+
     /// - Parameters:
     ///     - composer: A composer that generates tab view and page view controller.
     ///     - tabViewLayout: The layout of tab view.
@@ -48,6 +51,7 @@ open class TabPageViewController: UIViewController, PageViewControllerDelegate {
             initialPageIndex: initialPageIndex
         )
         self.tabView = composer.tabViewGenerator()
+        self.tabViewLayout = tabViewLayout
 
         super.init(nibName: nil, bundle: nil)
 
@@ -111,9 +115,34 @@ open class TabPageViewController: UIViewController, PageViewControllerDelegate {
         fatalError("`init(coder:)` has not been implemented")
     }
 
+    open override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+
+        let tabViewWidth = view.bounds.size.width
+            - inset(for: tabViewLayout.leading).left + tabViewLayout.leading.distance
+            - inset(for: tabViewLayout.trailing).right + tabViewLayout.trailing.distance
+        if tabViewWidth != tabView.bounds.width {
+            tabView.layoutIfNeeded()
+            tabView.highlightCells(withRatio: pageViewController.scrollRatio)
+        }
+    }
+
     open func pageViewController(_ pageViewController: PageViewController, didScrollAtRatio ratio: CGFloat) {
         tabView.highlightCells(withRatio: ratio)
         delegate?.tabPageViewController(self, didScrollAtRatio: ratio)
+    }
+
+    private func inset(for position: Position) -> UIEdgeInsets {
+        switch position.origin {
+        case .layoutMargin:
+            return view.layoutMargins
+
+        case .safeArea:
+            return view.safeAreaInsets
+
+        case .view:
+            return .zero
+        }
     }
 }
 
