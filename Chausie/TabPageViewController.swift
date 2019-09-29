@@ -119,9 +119,10 @@ open class TabPageViewController: UIViewController, PageViewControllerDelegate {
         super.viewDidLayoutSubviews()
 
         let tabViewWidth = view.bounds.size.width
-            - inset(for: tabViewLayout.leading).left + tabViewLayout.leading.distance
-            - inset(for: tabViewLayout.trailing).right + tabViewLayout.trailing.distance
-        if tabViewWidth != tabView.bounds.width {
+            - inset(for: tabViewLayout.leading).left - tabViewLayout.leading.distance
+            - inset(for: tabViewLayout.trailing).right - tabViewLayout.trailing.distance
+        let tabViewSize = CGSize(width: tabViewWidth, height: tabViewLayout.height)
+        if tabViewSize != tabView.bounds.size {
             tabView.layoutIfNeeded()
             tabView.highlightCells(withRatio: pageViewController.scrollRatio)
         }
