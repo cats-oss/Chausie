@@ -12,6 +12,20 @@
 
 * None.
 
+## [0.1.5](https://github.com/cats-oss/Chausie/releases/tag/0.1.5)
+
+##### Breaking
+
+* None.
+
+##### Enhancements
+
+* None.
+
+##### Bug Fixes
+
+* [Fix layout bug after device rotation](https://github.com/cats-oss/Chausie/pull/6)
+
 ## [0.1.4](https://github.com/cats-oss/Chausie/releases/tag/0.1.4)
 
 ##### Breaking
