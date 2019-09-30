@@ -201,7 +201,7 @@ public final class PageViewController: UIViewController {
         }()
 
         coordinator.animate(alongsideTransition: { _ in
-            let contentWidth = self.scrollView.bounds.width
+            let contentWidth = size.width
 
             if self.scrollView.contentSize.width != contentWidth * CGFloat(self.viewControllers.count) {
                 self.scrollView.contentSize.width = contentWidth * CGFloat(self.viewControllers.count)
