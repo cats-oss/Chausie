@@ -23,6 +23,11 @@ public final class PageViewController: UIViewController {
         return scrollView.panGestureRecognizer
     }
 
+    /// The visible view controllers
+    public var visibleViewControllers: [Child] {
+        return Set([visibleIndices.backword, visibleIndices.backword]).map { viewControllers[$0] }
+    }
+
     /// The view controllers displayed by the page view controller.
     public let viewControllers: ContiguousArray<Child>
 
