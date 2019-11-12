@@ -12,6 +12,20 @@
 
 * None.
 
+## [0.1.6](https://github.com/cats-oss/Chausie/releases/tag/0.1.6)
+
+##### Breaking
+
+* None.
+
+##### Enhancements
+
+* [Adds 'visibleViewControllers'](https://github.com/cats-oss/Chausie/commit/079f2a4f487ec020923f3a89a74faa588124e447)
+
+##### Bug Fixes
+
+* None.
+
 ## [0.1.5](https://github.com/cats-oss/Chausie/releases/tag/0.1.5)
 
 ##### Breaking
