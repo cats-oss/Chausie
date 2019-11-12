@@ -12,6 +12,20 @@
 
 * None.
 
+## [0.1.7](https://github.com/cats-oss/Chausie/releases/tag/0.1.7)
+
+##### Breaking
+
+* None.
+
+##### Enhancements
+
+* [Fix typo](https://github.com/cats-oss/Chausie/commit/3a70c1039a246f0ee3ee2b797454dcfdbe301da6)
+
+##### Bug Fixes
+
+* None.
+
 ## [0.1.6](https://github.com/cats-oss/Chausie/releases/tag/0.1.6)
 
 ##### Breaking
