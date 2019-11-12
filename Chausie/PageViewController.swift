@@ -25,7 +25,7 @@ public final class PageViewController: UIViewController {
 
     /// The visible view controllers
     public var visibleViewControllers: [Child] {
-        return Set([visibleIndices.backword, visibleIndices.backword]).map { viewControllers[$0] }
+        return Set([visibleIndices.backword, visibleIndices.forward]).map { viewControllers[$0] }
     }
 
     /// The view controllers displayed by the page view controller.
