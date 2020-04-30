@@ -12,6 +12,20 @@
 
 * None.
 
+## [0.1.8](https://github.com/cats-oss/Chausie/releases/tag/0.1.8)
+
+##### Breaking
+
+* None.
+
+##### Enhancements
+
+* [Adds condition](https://github.com/cats-oss/Chausie/commit/330676049092bf96ed601e92966613b9ceaf5f1a)
+
+##### Bug Fixes
+
+* None.
+
 ## [0.1.7](https://github.com/cats-oss/Chausie/releases/tag/0.1.7)
 
 ##### Breaking
