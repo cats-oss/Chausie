@@ -80,6 +80,8 @@ private final class PageViewControllerTests: XCTestCase {
     }
 
     func testViewFrameAfterRotation() {
+        let window = UIWindow()
+        window.addSubview(pageViewController.view)
         let currentSize = pageViewController.view.bounds.size
         let newSize = CGSize(width: currentSize.height, height: currentSize.width)
 

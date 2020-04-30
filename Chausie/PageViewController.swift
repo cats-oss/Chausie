@@ -195,7 +195,7 @@ public final class PageViewController: UIViewController {
     public override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
 
-        guard scrollView.bounds.width > 0 else { return }
+        guard viewIfLoaded?.window != nil && scrollView.bounds.width > 0 else { return }
 
         isTransitioning = true
 
