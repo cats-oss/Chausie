@@ -373,8 +373,6 @@ extension PageViewController: UIScrollViewDelegate {
                 (max(minPageIndex, lowerBound)...newForwardIndex).forEach(addChild)
 
             case .removeFromParent:
-                let backword = (childrenIndices.forward - maxChildrenCount).next(to: .forward)
-                let lowerBound = max(backword, newForwardIndex.next(to: .forward))
                 (newForwardIndex.next(to: .forward)...childrenIndices.forward).forEach { removeFromScrollView(viewControllers[$0]) }
             }
         }
